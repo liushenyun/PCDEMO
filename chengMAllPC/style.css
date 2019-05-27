@@ -1,0 +1,63 @@
+html,
+body {
+    min-width: 1200px;
+    font-size: 12px;
+}
+
+.ly-top {
+    height: 30px;
+}
+.ly-top-logo {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: blue
+}
+.ly-top-tap {
+    float: left;
+    width: 50%;
+    height: 100%;
+    line-height: 30px;
+}
+.ly-top-tap li {
+    display: inline-block;
+    height: 100%;
+    padding: 0 10px;
+    margin-right: 40px;
+    border-bottom: 2px solid #FFF;
+    box-sizing: border-box;
+}
+
+.ly-top-tap li.active {
+    border-bottom: 2px solid #FF7F00;
+}
+.index-con {
+    
+}
+
+
+/* ====================  about.html ===================== */
+.about-con .about-log-bg {
+    height: 362px;
+}
+.about-instr-outer {
+    text-align: center;
+}
+.about-instr-outer p {
+    line-height:14px;
+}
+.about-instr-outer p:nth-of-type(1){
+    font-weight:bolder;
+    color:rgba(51,51,51,1);
+    font-size: 14px;
+}
+.about-instr-outer p:nth-of-type(2){
+    color:#FF7F00;
+    font-size: 12px;
+}
+.about-instr-outer span {
+    display: inline-block;
+    width: 22px;
+    height: 2px;
+    background-color: #FF7F00;
+}
