@@ -5,19 +5,20 @@ body {
 }
 
 .ly-top {
-    height: 30px;
+    height: 38px;
 }
 .ly-top-logo {
     float: left;
     width: 50%;
     height: 100%;
-    background: blue
+    background: url('./image/logo_top.png') no-repeat center center;
+    background-size: auto 30px;
 }
 .ly-top-tap {
     float: left;
     width: 50%;
     height: 100%;
-    line-height: 30px;
+    line-height: 38px;
 }
 .ly-top-tap li {
     display: inline-block;
@@ -29,18 +30,27 @@ body {
 }
 
 .ly-top-tap li.active {
+    color: #FF7F00;
     border-bottom: 2px solid #FF7F00;
 }
 .index-con {
     
 }
+.index-con .index-top-bg {
+ height: 500px;
+ background: url('./image/index_banner.png') no-repeat left top;
+ background-size: 100% 100%;
+}
 
 
 /* ====================  about.html ===================== */
 .about-con .about-log-bg {
-    height: 362px;
+    height: 450px;
+    background: url('./image/about_banner.png') no-repeat left top;
+    background-size: 100% 100%;
 }
 .about-instr-outer {
+    margin-top: 40px;
     text-align: center;
 }
 .about-instr-outer p {
